@@ -19,7 +19,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto py-20">
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4">
-          Anonymous <span className="text-blue-600">Feedbacks</span>
+          Anonymous <span className="text-blue-600">Feedbacks </span>
         </h1>
 
         <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto mb-8">
