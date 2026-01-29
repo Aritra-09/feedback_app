@@ -4,7 +4,6 @@ import { sendVerificationEmail } from "@/helpers/sendVerificationEmail";
 import { ApiResponse } from "@/types/ApiResponse";
 import { NextRequest, NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
-import { tr } from "zod/locales";
 
 export async function POST(request: NextRequest){
     await dbConnect();
